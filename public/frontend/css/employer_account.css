@@ -1,0 +1,175 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+     * {
+      font-family: 'Poppins', sans-serif;
+      text-decoration: none;
+    }
+    
+     .border{
+      box-shadow: 2px 2px 5px 5px rgb(228, 223, 223);
+     }
+    #registrationform{
+      padding:20px 20px;
+     
+    }
+    #registrationform .form-control{
+      /* background: none;
+      border:none;
+      outline:none; */
+      font-size:13px;
+      border-bottom:1px solid #ddd;
+    }
+    
+    .form-group{
+      margin-bottom:0px!important;
+    }
+    .products{
+      display:flex;
+      text-decoration: none;
+      list-style-type: none;
+      justify-content: center;
+      padding:10px;
+    }
+    .sub-product {
+    padding: 0 5px;
+    border-right: 1px solid #dedede;
+    }
+    .first-heading{
+    color: #063455;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    .second-heading{
+    color:#063455 ;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    }
+    .third-heading{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #8892A3;
+    border-bottom: 1px solid #E5E9EE;
+    }
+    .btn-know-more{
+      border:2px solid #063455;
+      font-size: 14px;
+    }
+    .btn-know-more:hover{
+     background-color: #063455;
+     color:#ffffff;
+     }
+    .img-registration{
+      height:400px;
+      width:400px;
+      background-image: url('images/team.png');
+    }
+    /* .left-part{
+      background-image: linear-gradient(#ecf5fc,#ffff,#dce8f1,#ffff);  
+    } */
+    .first-line-form{
+      font-size:14px!important;
+      border-bottom:1px solid #E5E9EE;
+
+    }
+    .sub-sign{
+      font-weight: 600;
+    }
+    .second-line-form{
+      font-size: 14px;
+    }
+    .right-part{
+      margin: 5px 0 20px;
+    border: 1px solid #DFE6ED;
+    border-radius: 4px;
+    }
+
+    .looking{
+      font-size:13px;
+      margin-top:5px;
+    }
+    .form-check-inline{
+      font-size:13px!important;
+    }
+    .register-btn{
+      font-size: 14px;
+      color:#063455;
+      font-weight: 500;
+      background-color: #ffffff;
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+    }
+    .register-btn:hover{
+      background-color:#ddd;
+      color:#063455;
+    }
+
+    
+    .img-create{
+      margin-top: 100px;    
+    }
+    header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #063455;
+   
+    text-align: center;
+}
+.form-group{
+  line-height: 15px;
+}
+.form-btn {
+      background-color: #063455;
+    }
+    .first-heading{
+    color: #8892A3;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+  
+    text-align:justify;
+    text-transform: uppercase;
+    }
+    .second-heading{
+    color:#063455 ;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: justify;
+    border-bottom: 1px solid #E5E9EE;
+    }
+    .third-heading{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #8892A3;
+    border-bottom: 1px solid #E5E9EE;
+    }
+    .form-check{
+    font-size: 12px;
+    line-height: 20px;
+    }
+    .policy{
+        color:#063455;
+        font-weight: 500;
+    }
+    .already{
+        font-size: 13px;
+        text-align: center;
+    }
+    .company-type{
+        font-size: 13px;
+    }
+    .header-line{
+      border-bottom: 4px solid #063455;
+    
+    }
+    @media only screen and (min-width:1200px){
+      #registrationform{
+      width: 400px;
+    }
+}

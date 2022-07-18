@@ -1,0 +1,155 @@
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+   
+   *{
+    font-family: 'Poppins', sans-serif;
+   }
+   
+   #registrationform{
+      padding:20px 20px;
+    }
+    #registrationform input{
+      background: none;
+      border:none;
+      outline:none;
+      font-size:13px;
+      border-bottom:1px solid #ddd;
+    }
+    .form-group{
+      margin-bottom:0px!important;
+    }
+  
+    .first-heading{
+    color: #063455;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    .second-heading{
+    color:#063455 ;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    }
+    .third-heading{
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #8892A3;
+    border-bottom: 1px solid #E5E9EE;
+    }
+
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #063455;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+}
+.form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+.eye-icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+  
+.button-field{
+  color: #fff;
+  background-color:#063455 ;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.create-account:hover{
+    background-color: #063455;
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form a{
+    color: #063455;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+
+.field .create-account{
+  font-size: 14px!important;
+  font-weight: 600;
+  border: 2px solid #063455;
+  background-color: #ffffff;
+  color:#063455;
+transition: all 0.3s ease;
+cursor: pointer;
+}
+.field .create-account:hover{
+  background-color: #063455;
+  color:#fff;
+}
+
+.bottom-form-text{
+  color:#063455;
+  font-size: 13px;
+  font-weight: 600;
+}
+.form-text{
+  line-height: 10px;
+  font-size:13px;
+}
+.new-client{
+  font-size: 13px;
+  color:#063455;
+  text-align: center;
+}
+.field .input-field{
+  line-height:5px!important;
+}
+.border {
+    border: 1px solid #dee2e6!important;
+    height: 545px!important;
+    box-shadow: 2px 2px 5px 5px rgb(228, 223, 223);
+}
+.header-line{
+      border-bottom: 4px solid #063455;
+    }
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 20px 10px;
+    }
+    
+}
