@@ -15,16 +15,14 @@ class FrontendController extends Controller
     {
          return view('job-detail');
     }
-    public function employerAccount()
-    {
-        return view('employer-account');
-    }
-    public function employerLogin()
-    {
-        return view('employer-login');
-    }
+   
     public function jobListing()
     {
         return view('joblisting');
     }
+     public function certificate()
+    {
+       return view('certificate');
+    }
+    
 }

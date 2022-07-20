@@ -7,7 +7,7 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex,nofollow">
-    <title>Laravel 8 | Roles and Permissions Manager</title>
+    <title>Rojgarshine| Rojgarshine Dashboard</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/monster-admin-lite/" />
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
@@ -54,13 +54,13 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand justify-content-center" href="index.html">
+                    <a class="navbar-brand justify-content-center" href="index.html" style="background-color: black">
                         <!-- Logo icon -->
                         <b class="logo-icon">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
 
-                                <img src="{{ asset('logos/logo-dark.png') }}" class="dark-logo" width="158px" alt="Laravel Roles & Permissions Manager">
+                                <img src="{{ asset('admin_assets/images/rojgar_logo.png') }}" class="dark-logo" width="158px" alt="Laravel Roles & Permissions Manager" >
 
 
                         </b>
@@ -173,7 +173,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="text-center">
-                © 2020 Monster Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+              © 2022 Powered By Rojgarshine All right Reserved
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

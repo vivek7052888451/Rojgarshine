@@ -3,19 +3,17 @@
 
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-          <img src="{{asset('frontend/images/rojgar_logo.png')}}" alt="" class="img-fluid mx-3" width="100px" height="100px">
+          <img src="{{asset('frontend/images/rojgar_logo.png')}}" alt="" class="img-fluid mx-3" width="100px" height="10px">
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 search_mobile">
           <form class="form-inline my-2 mr-2 my-lg-0 mx-5 search_mobile">
-            <input class="form-control form-radius" type="search" placeholder="Search for products..."
-              aria-label="Search">
-            <button class="btn btn-warning  btn_search my-2 my-sm-0 btn-radius" type="submit"><i class="fa fa-search"
-                aria-hidden="true"></i></button>
+            <input class="form-control form-radius" type="search" placeholder="Search for products..." aria-label="Search">
+            <button class="btn btn-warning  btn_search my-2 my-sm-0 btn-radius" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
           </form>
-          <span class="side_part mt-2">For Employer | Corporate Training </span>
+          <span class="side_part mt-2"><a href="{{route('employer-login')}}" class="text-white">For Employer</a> | <a href="{{route('certificate')}}" class="text-white">Training Certificate</a> </span>
           <li class="nav-item ml-md-3">
-            <a class="btn btn-secondary register-btn" href="signshine.html"> For Job Seekers</a>
+            <a class="btn btn-secondary register-btn" href="{{route('employee-login')}}"> For Job Seekers</a>
           </li>
 
         </ul>
@@ -43,7 +41,7 @@
         <ul class="navbar-nav nav_allitem">
 
           <li class="nav-item ">
-            <a class="nav-link  text-dark mr-3" href="#">Home</a>
+            <a class="nav-link  text-dark mr-3" href="{{url('/')}}">Home</a>
           </li>
 
           <li class="nav-item">

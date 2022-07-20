@@ -31,6 +31,7 @@
 </head>
 
 <body>
+    
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
     <!-- ============================================================== -->
@@ -55,8 +56,8 @@
             <!-- Container fluid  -->
             <!-- ============================================================== -->
             <br><br>
-            <div class="text-center">
-                <img src="{{ asset('logos/logo-dark.png') }}" class="dark-logo" width="198px" alt="Laravel Roles & Permissions Manager">
+            <div class="text-center bg-dark">
+                <img src="{{ asset('admin_assets/images/rojgar_logo.png') }}" class="dark-logo" width="198px" alt="Laravel Roles & Permissions Manager">
             </div>
 
             <div class="container-fluid d-flex align-items-center">
@@ -71,7 +72,7 @@
             <!-- footer -->
             <!-- ============================================================== -->
             <footer class="text-center">
-                © 2020 Monster Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+               © 2022 Powered By Rojgarshine All right Reserved
             </footer>
             <!-- ============================================================== -->
             <!-- End footer -->

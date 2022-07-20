@@ -10,7 +10,7 @@
             <h3 class="second-heading">From Campus to Senior Level Hiring</h3>
             <h4 class="third-heading">Bouquet of solutions to meet all your hiring needs</h4>
 
-          <center><img src="images/team.png" alt="" class="img-fluid img-registration"></center>
+          <center><img src="{{ asset('frontend/images/team.png')}}" alt="" class="img-fluid img-registration"></center>
           
          
           </div>
@@ -20,17 +20,16 @@
               <div class="form-content">
                   <header>Login</header>
                   <div class="header-line"></div>
-                  <form action="#">
+                   <form method="POST" action="{{ route('login') }}">
+                        @csrf
                       <div class="field input-field">
-                          <input type="email" placeholder="Registered Email ID" class="input">
+                          <input type="email" placeholder="Registered Email ID" class="input" name="email">
                       </div>
 
                       <div class="field input-field">
-                          <input type="password" placeholder="Password" class="password">
+                          <input type="password" placeholder="Password" class="password" name="password">
                           
                       </div>
-
-                     
 
                       <div class="field">
                           <a href="index.html"><button class="button-field">Login</button></a>
@@ -51,7 +50,7 @@
 
               <div class="new-client">Are You a New Client?</div>
               <div class="field ">
-                <a href="account.html"><button class=" create-account">Create Account</button></a>
+                <a href="{{route('employer-account')}}"><button class=" create-account">Create Account</button></a>
             </div>
              
             </div>

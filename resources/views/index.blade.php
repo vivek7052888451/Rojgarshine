@@ -1,5 +1,8 @@
-@extends('frontend.app');
-
+@extends('frontend.app')
+{{--<form action="{{ route('logout') }}" method="post">
+       @csrf
+       <button type="submit">Logout</button>
+</form>--}}
 @section('content')
 
 <div class="container-fluid m-0 p-0">

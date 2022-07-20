@@ -7,7 +7,7 @@
             <div>
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-12 p-3">
-                  <img src="images/rojgar_logo.png" alt="">
+                  <img src="{{asset('frontend/images/rojgar_logo.png')}}" alt="">
                 </div>
                 <div class="col-lg-12 col-md-12 col-12">
                   <ul class="nav nav-list-icon">

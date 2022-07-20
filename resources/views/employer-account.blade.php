@@ -10,7 +10,7 @@
                 <h3 class="second-heading">Get started with Rojgarshine Recruitment     </h3>
                 <!-- <h4 class="third-heading">Bouquet of solutions to meet all your hiring needs</h4> -->
     
-              <img src="images/team.png" alt="" class="img-fluid img-create">
+              <img src="{{ asset('frontend/images/team.png')}}" alt="" class="img-fluid img-create">
               
             </div>
             <div class="col-lg-6 col-md-6 col-12 " >

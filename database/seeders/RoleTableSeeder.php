@@ -20,7 +20,12 @@ class RoleTableSeeder extends Seeder
         ]);
 
         Role::create([
-            'title' => 'User',
+            'title' => 'Employer',
+            'short_code' => 'Employer',
+        ]);
+         Role::create([
+            'title' => 'Employee',
+            'short_code' => 'Employee',
         ]);
     }
 }
