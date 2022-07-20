@@ -1,0 +1,562 @@
+/** {
+        padding: 0px;
+        margin: 0px;
+    }
+*/
+    body {
+        padding: 0px;
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* ====================
+home hover start  */
+    .home_container {
+        margin: 0px;
+        position: relative;
+
+    }
+
+    .home_img {
+        display: block;
+        width: 100%;
+        height: 157px;
+    }
+
+    .home_overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(6, 52, 85, 0.9);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+
+    .home_container:hover .home_overlay {
+        height: 100%;
+    }
+
+    .home_para {
+
+
+        color: white;
+        font-size: 13px;
+        margin-top: 30px;
+        text-align: center;
+
+
+    }
+
+    .home_paragraph {
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+
+    #more {
+        margin-left: 90px;
+        height: 22px;
+        width: 30%;
+        line-height: 5px;
+        margin-bottom: 20px;
+        background: white;
+        color: #063455;
+        font-size: 16px;
+
+    }
+
+    #Explo {
+        background: linear-gradient(45deg, #3876F1, #1C19B0);
+        border-radius: 25px;
+        border: none;
+        color: white;
+        text-align: center;
+        font-size: 18px;
+        opacity: 1;
+        transition: all 0.5s;
+        cursor: pointer;
+       
+    }
+
+    #Explo span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    #Explo span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    #Explo:hover span {
+        padding-right: 25px;
+    }
+
+    #Explo:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    .popcls {
+        font-weight: bold;
+
+    }
+
+    .horizon_line {
+        border-bottom: 4px solid black;
+        width: 225px;
+        margin-left: 128px;
+
+    }
+
+    /* Mobile screen sm start */
+    @media only screen and (min-width:300px) and (max-width: 480px) {
+        .horizon_line {
+            width: 300px;
+            margin-left: 25px;
+        }
+
+        .home_para {
+
+
+            color: white;
+            font-size: 18px;
+            margin-top: 30px;
+            text-align: justify;
+
+
+        }
+
+        .home_paragraph {
+            margin-right: 13px;
+            margin-left: 13px;
+
+        }
+
+        #more {
+            margin-left: 141px;
+            height: 22px;
+            width: 22%;
+            line-height: 5px;
+            margin-bottom: 15px;
+
+
+            font-size: 20px;
+
+        }
+
+    }
+
+    /* Mobile screen sm ends */
+
+    @media only screen and (max-width:289px) {
+        .horizon_line {
+
+            margin-left: 100px;
+        }
+    }
+
+    @media only screen and (min-width: 280px) and (max-width: 480px) {
+        .horizon_line {
+            width: 180px;
+            margin-left: 40px;
+        }
+    }
+
+    /* Ipad screen md start */
+    @media only screen and (min-width: 480px) and (max-width: 1024px) {
+        .horizon_line {
+            width: 240px;
+            margin-left: 28px;
+        }
+
+        .home_para {
+            font-size: 12px;
+            margin-top: 8px;
+
+            text-align: center;
+
+
+        }
+
+        .home_paragraph {
+            margin-right: 13px;
+            margin-left: 13px;
+            margin: 8px;
+
+        }
+
+        #more {
+            margin-left: 50px;
+            height: 22px;
+            width: 36%;
+            line-height: 6px;
+
+            font-size: 14px;
+
+        }
+
+    }
+
+    /* Ipad screen md ends */
+    @media only screen and (width:540px) {
+        #more {
+            margin-left: 200px;
+            height: 22px;
+            width: 20%;
+            line-height: 6px;
+            font-size: 14px;
+            margin-top: 18px;
+
+        }
+
+        .home_paragraph {
+            margin-right: 13px;
+            margin-left: 13px;
+            margin-top: 18px;
+
+        }
+
+        .horizon_line {
+            width: 290px;
+            margin-left: 110px;
+        }
+    }
+
+    @media only screen and (width:1024px) {
+        #more {
+            margin-left: 70px;
+            height: 22px;
+            width: 30%;
+            line-height: 6px;
+            font-size: 14px;
+            margin-top: 10px;
+
+        }
+
+        .home_paragraph {
+            margin-right: 13px;
+            margin-left: 13px;
+            margin-top: 25px;
+
+        }
+
+        .horizon_line {
+            width: 292px;
+            margin-left: 80px;
+        }
+    }
+
+    /* home hover ends 
+  =============== */
+
+
+
+    /* ======================== */
+    /* Rojgar banner coperate start  */
+    .banner_image {
+        height: 380px;
+        width: 100%;
+        background: url("images/slide-2.jpg");
+        left: 0px;
+        right: 0px;
+    }
+
+    .banner_image_overlay {
+        height: 380px;
+        width: 100%;
+        background: rgba(6, 52, 85, 0.8);
+        opacity: 0.9;
+        left: 0;
+        right: 0;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .banner_text {
+        text-align: left;
+        padding-left: 90px;
+    }
+
+    .banner_heading {
+        color: white;
+
+        padding-top: 20px;
+
+    }
+
+    .horizontal-line {
+        width: 283px;
+        border-bottom: 3px solid white;
+
+    }
+
+    .banner_subheading {
+        font-size: 30px;
+        color: #FCDC15;
+
+        padding-top: 5px;
+    }
+
+    .banner-list ul {
+        margin: 0;
+        padding-left: 30px;
+        list-style: none;
+        color: white;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+
+    .banner-list ul li::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: linear-gradient(90deg, #fa8e2b, #f5ea26);
+        display: inline-block;
+        margin-right: 8px;
+    }
+
+    .view_details {
+        background-color: black;
+        margin-top: 30px;
+        margin-left: 20px;
+        color: white;
+        height: 40px;
+        width: 22%;
+        line-height: 25px;
+        font-size: 18px;
+        border-radius: 25px;
+    }
+
+    /* Mobile screen sm start */
+    @media only screen and (max-width: 767px) {
+        .banner_image {
+            height: auto;
+            width: 100%;
+
+        }
+
+        .banner_image_overlay {
+            height: auto;
+            width: 100%;
+        }
+
+        .mob_h {
+
+
+            font-size: 20px;
+
+        }
+
+        .view_details {
+            width: 50%;
+        }
+
+        .banner_text {
+            text-align: left;
+            padding-left: 20px;
+        }
+
+        .banner-list ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 10px;
+            padding-top: 10px;
+        }
+
+        .horizontal-line {
+            width: 170px !important;
+
+
+        }
+
+
+    }
+
+    /* Mobile screen sm end */
+
+
+
+    /* Ipad screen md start */
+    @media only screen and (max-width: 1024px) {
+        .banner_text {
+            text-align: left;
+            padding-left: 30px;
+        }
+
+        .banner_image {
+            height: auto;
+            width: 100%;
+
+        }
+
+        .banner_image_overlay {
+            height: auto;
+            width: 100%;
+        }
+
+        .view_details {
+            width: 50%;
+        }
+
+        .banner-list ul {
+            margin: 0;
+            padding-left: 20px;
+            font-size: 9px;
+            padding-top: 10px;
+        }
+
+        .mob_h {
+            font-size: 17px;
+        }
+
+        .horizontal-line {
+            width: 150px;
+
+
+        }
+
+
+        .view_details {
+            background-color: black;
+            margin-top: 20px;
+            margin-left: 20px;
+            color: white;
+            height: 35px;
+            width: 33%;
+
+            font-size: 12px;
+            border-radius: 25px;
+            margin-bottom: 10px;
+        }
+
+    }
+
+
+    /* Ipad screen md end */
+    /* Rojgar banner coperate ends  */
+    /* ==================================== */
+
+    /* =========================
+    courses section start */
+
+    .courses {
+        background-color: white;
+
+    }
+
+    .online_training_course_section {
+        padding-top: 50px;
+
+    }
+
+    .online_training_course_image_section {
+        height: 60px;
+        width: 150px;
+        margin:auto!important;
+    }
+
+    .online_training_course_image {
+        height: 100%;
+        text-align: center;
+        padding-left: 70px;
+    }
+
+    .online_training_course_heading h5 {
+        text-align: center;
+        font-size: 16px;
+        margin:auto!important;
+        color: #063455;
+    }
+
+    /* sm start */
+
+    @media only screen and (min-width: 280px) and (max-width: 480px) {
+       
+        .online_training_course_image {           
+            text-align: center;
+            padding-left: 60px;
+        }
+
+        .online_training_course_heading h5 {
+            text-align: center;
+            font-size: 16px;
+            color: #063455;
+        }
+
+    }
+
+    /* sm end */
+
+
+    /* md start */
+
+    @media only screen and (min-width: 480px) and (max-width: 1024px) {
+        .online_training_course_image_section {
+            height: 60px;
+            width: 78px;
+        }
+
+        .online_training_course_image {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            padding-left: 0px;
+        }
+        
+
+    }
+
+    /* md end */
+
+
+    @media (width: 540px) {
+        .online_training_course_image_section {
+            height: 110px;
+            width: 400px;
+        }
+
+        .online_training_course_image {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            padding-left: 90px;
+        }
+
+        .online_training_course_heading h5 {
+            text-align: center;
+            font-size: 25px;
+            color: #063455;
+        }
+    }
+
+
+
+    @media (width: 280px) {
+        .online_training_course_image_section {
+            height: 60px;
+            width: 80px;
+            margin:auto!important;
+        }
+
+        .online_training_course_image {
+            height: 60px;
+        width: 80px;
+        margin:auto!important;
+            text-align: center;
+            padding-left: 30px;
+        }
+    }
+
+    /* courses section end
+    ======================= */

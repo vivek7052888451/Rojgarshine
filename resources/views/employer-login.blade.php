@@ -19,16 +19,22 @@
             <div class="form login">
               <div class="form-content">
                   <header>Login</header>
+                  @if(session()->has('message'))
+                      <div class="alert alert-danger">
+                          {{ session()->get('message') }}
+                      </div>
+                  @endif
                   <div class="header-line"></div>
                    <form method="POST" action="{{ route('login') }}">
                         @csrf
                       <div class="field input-field">
                           <input type="email" placeholder="Registered Email ID" class="input" name="email">
+                             <font style="color:red"> {{ $errors->has('email') ?  $errors->first('email') : '' }} </font>
                       </div>
 
                       <div class="field input-field">
                           <input type="password" placeholder="Password" class="password" name="password">
-                          
+                             <font style="color:red"> {{ $errors->has('password') ?  $errors->first('password') : '' }} </font>
                       </div>
 
                       <div class="field">
@@ -36,7 +42,7 @@
                       </div>
 
                       <div class="form-link">
-                        <a href="#" class="forgot-pass">Forgot password?</a>
+                        <a href="{{ route('password.request') }}" class="forgot-pass">Forgot password?</a>
                     </div>
                   </form>
 

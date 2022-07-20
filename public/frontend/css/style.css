@@ -4,8 +4,7 @@
     @media (min-width: 576px){
 .navbar-expand-sm .navbar-nav .nav-link {
     padding-right: 0.5rem;
-    padding-left: 0rem;
-    
+    padding-left: 0rem;    
 }
 
 
@@ -68,6 +67,14 @@
       .form-inline .form-control {
         width: 500px;
       }
+    
+    }
+    @media(min-width:768px){
+      .footer-list a {
+        font-size: 13px;
+        margin-left: -40px!important;
+        color: #ffffff;
+    }
     }
    .bottom_button{
          display: none;
@@ -270,7 +277,7 @@
       color: white;
       padding: 10px 30px;
       display: inline-block;
-      margin-top: 15px;
+      margin-top: 14px;
       border-radius: 50px;
     }
 
@@ -311,7 +318,7 @@
     }
 
     .type-text {
-      font-size: 15px;
+      font-size: 14px;
     }
 
     .filter-list {
@@ -590,7 +597,7 @@
     }
 
     .footer-text {
-      font-size: 13px;
+      font-size: 14px;
       /* padding-left: 30px; */
 
     }
@@ -621,13 +628,20 @@
       list-style-type: none;
       text-decoration: none;
     }
-
+   
     .footer-list a {
       font-size: 13px;
-      margin-left: -40px;
+      /* margin-left: -40px; */
       color: #ffffff;
     }
-
+    @media (max-width: 1200px){
+      
+    .footer-list a {
+      font-size: 14px;
+      margin-left: -40px!important;
+      color: #ffffff;
+    }
+    }
     .footer-list li a:hover {
       font-weight: 600;
     }

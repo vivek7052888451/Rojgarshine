@@ -4,11 +4,12 @@
 	
 
   @include('frontend.includes.headerlink')
-  <link rel="stylesheet" href="{{ asset('frontend/css/index.css')}}" />
+  <link rel="stylesheet" href="{{ asset('frontend/css/style.css')}}" />
   <!-- --------------------------------------Whole Header CSS--------------------------------------------------- -->
   <style>
    
   </style>
+  
 </head>
 
 <body>
@@ -19,6 +20,7 @@
 
 
   @include('frontend.includes.header')
+
 
 
   <!-------------------------------------------------Slider start------------------------------------------>

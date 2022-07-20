@@ -1,17 +1,18 @@
 @extends('frontend.app')
+<link rel="stylesheet" href="{{ asset('frontend/css/courses.css')}}" />
 {{--<form action="{{ route('logout') }}" method="post">
        @csrf
        <button type="submit">Logout</button>
 </form>--}}
 @section('content')
 
-<div class="container-fluid m-0 p-0">
+  <div class="container-fluid m-0 p-0">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
 
         <div class="carousel-item active">
           <img src="{{ asset('frontend/images/bg_exam.jpg')}}" class="img-fluid d-block slider_image w-100" alt="...">
-          <div class=" carousel-caption  d-md-block">
+          <div class="carousel-caption  d-md-block">
             <h5 class="Mobile-display animate__animated animate__fadeInUp">PYTHON FOR ALL</h5>
             <p class="animate__animated animate__fadeInUp animate__delay-1s">Python Training by working professionals
             </p>
@@ -52,8 +53,15 @@
   </div>
   </div>
 
-  
-<section class="mt-5 pb-5 about-content">
+  <!-------------------------------------------------Slider End------------------------------------------>
+
+  <!-------------------------------------------------bottom row for desktop start------------------------------------------>
+ 
+  <!-------------------------------------------------bottom row for Mobile View starts----------------------------------------->
+
+  <!---------------------------------------- Header End----------------------------------------------------->
+
+  <section class="mt-5 pb-5 about-content">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-12 col-12">
@@ -243,6 +251,400 @@
       </div>
     </div>
   </section>
+
+<section>
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-sm-12 col-lg-3 col-md-3 col-xl-3"></div>
+                <div class="col-sm-12 col-lg-6 col-md-6 col-xl-6">
+                    <h3 class="popcls text-center">POPULAR COURSES</h3>
+                    <div class="horizon_line text-center"></div>
+                </div>
+                <div class="col-sm-12 col-lg-3 col-md-3 col-xl-3"></div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                    <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                   <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                    <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                    <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-4">
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                    <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                    <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                    <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12">
+                            <div class="home_container">
+
+                               <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+
+                                <div class="home_overlay">
+
+                                    <div class="home_paragraph">
+                                        <p class="home_para">abcd abcd abcd
+                                            hgyd hgrewyu udgh ehygrtyu
+                                            jdfcguf yegufhdg hjdsgf jfhrhu
+                                            hdgfyugf hgdsystg abcg</p>
+                                    </div>
+                                    <button class="btn" id="more"><a href="coursedetails.php"
+                                            style="color:#063455; text-decoration: none;">More</a></button>
+                                </div>
+
+                            </div>
+                            <div class="text-center">
+                                <h6 style="color:white;
+                                        font-size:15px;
+                                        padding-bottom:4px; padding-top:7px;
+                                        margin-top:4px;
+                                        background-color:#063455; width:100%;">Web
+                                    Designer</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="apply-box pt-4 pb-5" style="text-align:center;">
+
+            <button class="btn" id="Explo"><span><a href="#" style="color:white; text-decoration: none;">Explore All
+                        Courses</a></span></button>
+        </div>
+    </section>
+    <!-- home hover ends -->
+
+    <!-- Rojgar banner coperate start -->
+    <section>
+        <div class="container-fluid pt-4 pb-3 m-0 p-0" style="overflow:hidden;">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner_image">
+                        <div class="banner_image_overlay">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="banner_text pt-3">
+                                        <div class="banner_heading">
+                                            <h3 class="animate__animated
+                                                    animate__backInLeft
+                                                    animate__repeat-2 2 mob_h">
+                                                ROJGARSHINE FOR CORPORATES
+                                            </h3>
+                                            <div class="horizontal-line"></div>
+                                        </div>
+                                        <div class="banner_subheading pt-3">
+                                            <h5>World-Class Employee
+                                                Training Solutions</h5>
+                                        </div>
+                                        <div class="banner-list">
+                                            <ul>
+                                                <li>Options of
+                                                    Classroom/InHouse/Online
+                                                    Training</li>
+                                                <li>Fully Customize
+                                                    Instructor-led training</li>
+                                                <li>Flexible Schedule-Build
+                                                    Your Own Schedule</li>
+                                                <li>Training from Industry
+                                                    Professional/Trainers</li>
+                                                <li>Course
+                                                    tailored as per your
+                                                    organization's needs</li>
+                                                <li>Assignments,Notes
+                                                    &amp; Tests with
+                                                    detailed result
+                                                    analytics</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <button type="" class="view_details"><a href="#"
+                                                    style="color:white; text-decoration: none;">View
+                                                    Details</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-6">
+                                    <div class="banner_text pt-3">
+                                        <div class="banner_heading">
+                                            <h3 class="animate__animated
+                                                    animate__backInRight
+                                                    animate__repeat-2 2 mob_h">
+                                                ROJGARSHINE FOR
+                                                CORPORATES</h3>
+                                            <div class="horizontal-line"></div>
+                                        </div>
+                                        <div class="banner_subheading pt-3">
+                                            <h5>World-Class Employee
+                                                Training Solutions</h5>
+                                        </div>
+                                        <div class="banner-list">
+                                            <ul>
+                                                <li>Options of
+                                                    Classroom/InHouse/Online
+                                                    Training</li>
+                                                <li>Fully Customize
+                                                    Instructor-led training</li>
+                                                <li>Flexible Schedule-Build
+                                                    Your Own Schedule</li>
+                                                <li>Training from Industry
+                                                    Professional/Trainers</li>
+                                                <li>Course
+                                                    tailored as per your
+                                                    organization's needs</li>
+                                                <li>Assignments,Notes
+                                                    &amp; Tests with
+                                                    detailed result
+                                                    analytics</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <button type="" class="view_details"><a href="#"
+                                                    style="color:white; text-decoration: none;">View
+                                                    Details</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Rojgar banner coperate ends -->
+
+    <!-- courses start -->
+    <section>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                    <div class="online_training_course_section">
+                        <div class="online_training_course_image_section">
+                            <img src="images/videoconference.png" class="online_training_course_image">
+                        </div>
+                        <div class="online_training_course_heading pt-4">
+                            <h5 class="animate__animated animate__tada">Online Training Courses</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                    <div class="online_training_course_section">
+                        <div class="online_training_course_image_section">
+                            <img src="images/presentation.png" class="online_training_course_image">
+                        </div>
+                        <div class="online_training_course_heading pt-4">
+                            <h5 class="animate__animated animate__tada">Classroom Training</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                    <div class="online_training_course_section">
+                        <div class="online_training_course_image_section">
+                            <img src="images/resume.png" class="online_training_course_image">
+                        </div>
+                        <div class="online_training_course_heading pt-4">
+                            <h5 class="animate__animated animate__tada">Job Seeker ! Upload Resume</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
+                    <div class="online_training_course_section">
+                        <div class="online_training_course_image_section">
+                            <img src="images/hiring.png" class="online_training_course_image">
+                        </div>
+                        <div class="online_training_course_heading  pt-4">
+                            <h5 class="animate__animated animate__tada">Company ! Hire resources</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
   <section>
@@ -726,7 +1128,7 @@
       </div>
       <!-- <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class=" text-dark">	&#60;</span>
+            <span class=" text-dark"> &#60;</span>
           </button>
           <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
             <span class="carousel-control-next-icon text-dark" aria-hidden="true"></span>

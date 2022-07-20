@@ -24,5 +24,10 @@ class FrontendController extends Controller
     {
        return view('certificate');
     }
+     public function coursesDetails()
+    {
+       return view('coursedetails');
+    }
+    
     
 }

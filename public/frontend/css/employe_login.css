@@ -1,0 +1,259 @@
+ body {
+      padding: 0px;
+      margin: 0px;
+      background-color: rgb(223, 223, 230);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* new to start */
+    .main {
+      height: 500px;
+      padding-top: 50px;
+      /* background-color: brown; */
+
+    }
+
+    .new {
+      padding-top: 30px;
+      padding-left: 40px;
+
+    }
+
+    .A {
+      height: 300px;
+      background-color: white;
+    }
+
+    .B {
+      height: 200px;
+      background-color: white;
+    }
+
+    /* .B1{
+        height:200px;
+        background-color: black;
+      } */
+    .B2 {
+      height: 200px;
+      background-color: white;
+    }
+
+    .check_list {
+      list-style-type: none;
+    }
+
+    .register_btn {
+      font-size: 16px;
+      border: 2px solid #063455;
+      width: 56%;
+      line-height: 22px;
+      height: 40px;
+      color: #063455;
+    }
+
+    .img {
+      height: 200px;
+      width: 300px;
+    }
+
+    .image_reg {
+      height: 100%;
+      width: 100%;
+    }
+
+    .list_para {
+      font-size: 18px;
+    }
+
+    @media only screen and (min-width:300px) and (max-width:480px) {
+      .list_para {
+        font-size: 12px;
+      }
+
+      .new {
+
+        padding-left: 20px;
+      }
+    }
+
+    @media only screen and (min-width:480px) and (max-width:1024px) {
+      .new {
+
+        padding-left: 20px;
+      }
+
+      .list_para {
+        font-size: 10px;
+      }
+
+      .img {
+        width: 500px;
+        padding-right: 345px;
+      }
+    }
+
+    @media only screen and (max-width:480px) {
+      .new {
+
+        padding-left: 4px;
+      }
+
+      .list_para {
+        font-size: 8px;
+      }
+    }
+
+    @media only screen and (max-width:280px) {
+      .img {
+        width: 250px;
+
+      }
+
+      .container {
+        overflow: hidden;
+      }
+
+      .login_form form {
+        width: 100%;
+        margin-left: -20px;
+      }
+
+      .google_btn {
+        border-radius: 10px;
+        width: 90% !important;
+        height: 32px;
+        border: 2px solid white;
+        line-height: 8px;
+        font-size: 5px;
+      }
+
+      .google_icon_btn {
+        height: 10px;
+        margin-right: 20px;
+      }
+
+
+    }
+
+    @media only screen and (width:540px) {
+      .img {
+        width: 600px;
+        padding-left: 15px;
+
+      }
+
+      .container {
+        overflow: hidden;
+      }
+    }
+
+    /* new to end */
+
+    /* login form start */
+    .login {
+      height: 570px;
+      background-color: red;
+
+    }
+
+    div.login_form {
+      width: 100%;
+      margin-left: 40px;
+    }
+
+    input#name {
+      width: 80%;
+    }
+
+    .forget {
+      text-align: end;
+      font-size: 15px;
+      margin-bottom: 25px;
+      width: 80%;
+    }
+
+    #log_btn {
+      width: 80%;
+    }
+
+    .otp {
+      width: 80%;
+      text-align: center;
+      font-size: 14px;
+      margin-top: 20px;
+    }
+
+    .line {
+
+      position: relative;
+
+      height: 1px;
+
+      width: 80%;
+
+      margin: 36px 0;
+
+      background-color: #d4d4d4;
+
+    }
+
+    .line::before {
+
+      content: 'Or';
+
+      position: absolute;
+
+      top: 50%;
+
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+
+      background-color: #FFF;
+
+      color: #8b8b8b;
+
+      padding: 0 15px;
+
+    }
+
+    .google_btn {
+      border-radius: 20px;
+      width: 80%;
+      height: 32px;
+      border: 2px solid white;
+      line-height: 10px;
+      font-size: 18px;
+    }
+
+    .google_icon_btn {
+      height: 20px;
+      margin-right: 20px;
+    }
+
+    @media only screen and (min-width:300px) and (max-width:480px) {
+      div.login_form {
+
+        margin-left: 5px;
+      }
+
+      .A {
+        padding-left: 50px;
+      }
+
+      .B {
+        padding-left: 50px;
+      }
+
+      .register_btn {
+        margin-left: 10px;
+
+
+      }
+
+      .login {
+        padding-left: 50px;
+
+      }
+
+    }

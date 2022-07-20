@@ -28,6 +28,7 @@ Route::get('/',[FrontendController::class,'index']);
 Route::get('jobDetail',[FrontendController::class,'jobDetail']);
 // 
 Route::get('certificate',[FrontendController::class,'certificate'])->name('certificate');
+Route::get('courses-details',[FrontendController::class,'coursesDetails'])->name('courses-details');
 Route::get('job-listing',[FrontendController::class,'jobListing']);
 Route::get('employee-login',[EmployeeController::class,'employeeLoginForm'])->name('employee-login');
 

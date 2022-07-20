@@ -14,7 +14,7 @@
               
             </div>
             <div class="col-lg-6 col-md-6 col-12 " >
-                <form action="" class="border" id="registrationform">
+                <form action="" class="border_form" id="registrationform">
                     <div>
                         <header>Create Account</header>
                         <div class="header-line"></div>
@@ -42,7 +42,32 @@
                       <label for=""></label>
                       <input type="text" placeholder="Contact's Person Name" class="form-control">
                     </div>
-                    <label for="" class="company-type">Company Type</label>
+                    <label for="" class="company-type">Company Type<sup>*</sup> </label>
+          <p>
+            <a class="btn btn-company" data-toggle="collapse" href="#collapseExample"  aria-expanded="false" aria-controls="collapseExample">
+              <i class="fa fa-building-o" aria-hidden="true" style="font-size:13px;"></i>&nbsp; Company</a>
+
+
+            <button class="btn btn-company ml-3" type="button" data-toggle="collapse"  aria-expanded="false" aria-controls="collapseExample">
+              <i class="fa fa-handshake-o" aria-hidden="true"></i>&nbsp; Consultant
+            </button>
+          </p>
+          <div class="collapse collapse-industry" id="collapseExample">
+            <div class="card card-body">
+              <select class="form-control industry-option">
+                <option>Select Industry</option>
+                <option>Web developer</option>
+                <option>Web developer</option>
+                <option>Web developer</option>
+                <option>Full stack developer</option>
+                <option>Web developer</option>
+                <option>Web developer</option>
+                <option>Web developer</option>
+                <option>Web developer</option>
+
+              </select>
+            </div>
+          </div>
                     <div class="row">
                         <div class="col">
                           <input type="text" class="form-control" placeholder="Pin Code">

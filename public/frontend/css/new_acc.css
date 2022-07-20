@@ -1,0 +1,114 @@
+
+.box {
+    width:350px;
+    background: rgba(255, 255, 255, 0.712);
+    border-radius: 25px;
+    margin: 150px 0px  0px;
+    position: sticky;
+    top:200px;
+    
+}
+/* .box{
+    position: fixed;
+    left: 150px;
+} */
+.dotted {
+    border-style: dotted;
+    border-width: 1px;
+
+}
+.main {
+   border-radius: 25px;
+}
+
+div.register {
+    width: 100%;
+
+}
+
+input#name {
+    width: 100%;
+}
+.li_list li span{
+    color:#1f4b6b;
+    font-size: 13px!important;
+}
+
+label {
+    margin-bottom: 0px;
+  
+    font-size: 14px;
+}
+
+.line {
+
+    position: relative;
+
+    height: 1px;
+
+    width: 80%;
+
+    margin: 36px 0;
+
+    background-color: #d4d4d4;
+
+}
+.label-size{
+    font-size: 13px;
+}
+.line::before {
+
+    content: 'Or';
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: #FFF;
+
+    color: #8b8b8b;
+
+    padding: 0 15px;
+
+}
+
+.google_btn {
+    border-radius: 20px;
+    width: 80%;
+    height: 32px;
+    border: 2px solid white;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.google_icon_btn {
+    height: 20px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+::-webkit-file-upload-button {
+    color: #FFF;
+    background: #1f4b6b;
+    padding: 2px;
+    border: none;
+    border-radius: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    /* outline:none; */
+    width: 150px;
+    height: 30px;
+}
+
+#reg {
+    border-radius: 25px;
+    width: 200px;
+}
+
+#terms {
+    font-size: 12px;
+}
