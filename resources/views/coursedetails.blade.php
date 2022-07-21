@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="{{ asset('frontend/css/coursedetails.css')}}" />
 
 @section('content')
- <section>
+   <section>
     <div class="container-fluid pl-0 pr-0" style="overflow:hidden;">
       <div class="row">
         <div class="col-md-12">
@@ -1659,4 +1659,5 @@
       </div>
     </div>
   </div>
+
 @endsection

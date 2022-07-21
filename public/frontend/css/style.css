@@ -72,7 +72,7 @@
     @media(min-width:768px){
       .footer-list a {
         font-size: 13px;
-        margin-left: -40px!important;
+        /*margin-left: -40px!important;*/
         color: #ffffff;
     }
     }
@@ -638,7 +638,7 @@
       
     .footer-list a {
       font-size: 14px;
-      margin-left: -40px!important;
+      /*margin-left: -40px!important;*/
       color: #ffffff;
     }
     }
