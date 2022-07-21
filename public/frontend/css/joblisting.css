@@ -4,20 +4,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
- .nav-stick {
-    position: fixed;
-    top: 0;
-    z-index: 3;
-    width: 100%;
+
+
+ div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
-@media only screen and(max-width:900px){
-    .nav-stick{
-        position: sticky;
-        top: 10px;
-        z-index: 3;
-        width: 100%;
-    }
-}
+
+
 
 @media(min-width:550px)and (max-width:800px) {
     .left-sidebar {
@@ -105,9 +101,12 @@
         overflow: hidden !important;
     }
 
-    .mobile_nav {
-        position: sticky !important;
-    }
+    div.mobile_nav {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+      
 }
 
 /* @media (max-width:280px) {
@@ -285,7 +284,6 @@
 
 .first-row-border {
     border-bottom: 1px solid #ddd;
-    box-shadow: 0px 0px 5px 0px;
     padding: 10px;
 }
 

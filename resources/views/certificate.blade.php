@@ -3,11 +3,7 @@
 
 @section('content')
 
-
-
-    <!-- ======================================
-                banner start -->
-    <section>
+ <section>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12 banner">

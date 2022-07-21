@@ -10,12 +10,12 @@
             <h3 class="second-heading">From Campus to Senior Level Hiring</h3>
             <h4 class="third-heading">Bouquet of solutions to meet all your hiring needs</h4>
 
-          <center><img src="{{ asset('frontend/images/team.png')}}" alt="" class="img-fluid img-registration"></center>
+          <center><img src="{{ asset('frontend/images/team.png')}}" alt="" class="img-fluid"></center>
           
          
           </div>
       
-          <div class="col-lg-4 col-md-6 col-12 mb-5 border" id="registrationform">
+          <div class="col-lg-4 col-md-6 col-12 mb-5 border right-part shadow" id="registrationform">
             <div class="form login">
               <div class="form-content">
                   <header>Login</header>
@@ -25,7 +25,7 @@
                       </div>
                   @endif
                   <div class="header-line"></div>
-                   <form method="POST" action="{{ route('login') }}">
+                   <form method="POST" action="{{ route('employer-login') }}">
                         @csrf
                       <div class="field input-field">
                           <input type="email" placeholder="Registered Email ID" class="input" name="email">

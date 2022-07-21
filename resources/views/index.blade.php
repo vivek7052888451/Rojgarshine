@@ -5,8 +5,7 @@
        <button type="submit">Logout</button>
 </form>--}}
 @section('content')
-
-  <div class="container-fluid m-0 p-0">
+<div class="container-fluid m-0 p-0">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
 
@@ -294,7 +293,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="home_container">
 
-                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
 
                                 <div class="home_overlay">
 
@@ -321,7 +320,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="home_container">
 
-                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
 
                                 <div class="home_overlay">
 
@@ -348,7 +347,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="home_container">
 
-                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
 
                                 <div class="home_overlay">
 
@@ -404,7 +403,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="home_container">
 
-                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
 
                                 <div class="home_overlay">
 
@@ -431,7 +430,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="home_container">
 
-                                 <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
 
                                 <div class="home_overlay">
 
@@ -458,7 +457,7 @@
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <div class="home_container">
 
-                               <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
+                                <img src="{{ asset('frontend/images/topBg2.jpg')}}" class="home_img" />
 
                                 <div class="home_overlay">
 
@@ -600,7 +599,7 @@
                 <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                     <div class="online_training_course_section">
                         <div class="online_training_course_image_section">
-                            <img src="images/videoconference.png" class="online_training_course_image">
+                            <img src="{{ asset('frontend/images/videoconference.png')}}" class="online_training_course_image">
                         </div>
                         <div class="online_training_course_heading pt-4">
                             <h5 class="animate__animated animate__tada">Online Training Courses</h5>
@@ -611,7 +610,7 @@
                 <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                     <div class="online_training_course_section">
                         <div class="online_training_course_image_section">
-                            <img src="images/presentation.png" class="online_training_course_image">
+                            <img src="{{ asset('frontend/images/presentation.png')}}" class="online_training_course_image">
                         </div>
                         <div class="online_training_course_heading pt-4">
                             <h5 class="animate__animated animate__tada">Classroom Training</h5>
@@ -622,7 +621,7 @@
                 <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                     <div class="online_training_course_section">
                         <div class="online_training_course_image_section">
-                            <img src="images/resume.png" class="online_training_course_image">
+                            <img src="{{ asset('frontend/images/resume.png')}}" class="online_training_course_image">
                         </div>
                         <div class="online_training_course_heading pt-4">
                             <h5 class="animate__animated animate__tada">Job Seeker ! Upload Resume</h5>
@@ -633,7 +632,7 @@
                 <div class="col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                     <div class="online_training_course_section">
                         <div class="online_training_course_image_section">
-                            <img src="images/hiring.png" class="online_training_course_image">
+                            <img src="{{ asset('frontend/images/hiring.png')}}" class="online_training_course_image">
                         </div>
                         <div class="online_training_course_heading  pt-4">
                             <h5 class="animate__animated animate__tada">Company ! Hire resources</h5>

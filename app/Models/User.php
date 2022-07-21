@@ -23,6 +23,16 @@ class User extends Authenticatable
         'email',
         'password',
         'role_id',
+        'company_name',
+        'official_email',
+        'mobile',
+        'company_type',
+        'gstin',
+        'pin_code',
+        'promotional_communication',
+        'city',
+        'industry',
+        'terms_condition',
     ];
 
     /**
@@ -46,6 +56,7 @@ class User extends Authenticatable
 
     public function setPasswordAttribute($input)
     {
+
         if ($input) {
             $this->attributes['password'] = app('hash')->needsRehash($input) ? Hash::make($input) : $input;
         }

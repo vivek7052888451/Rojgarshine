@@ -9,6 +9,11 @@ class EmployeeController extends Controller
 {
     public function employeeLoginForm()
     {
-        dd('employee Login');
+        return view('employee_login');
     }
+     public function employeeAccount()
+    {
+        return view('employe_account');
+    }
+  
 }

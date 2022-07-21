@@ -1,17 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@media (max-width:700px){
+    .sidebar{
+        display: none;
+    }
+}
 
+@media(max-width:280px){
+    .main{
+        width:260px!important;
+    }
+}
+.box-sticky{
+    position: sticky;
+    top:100px;
+}
 .box {
     width:350px;
     background: rgba(255, 255, 255, 0.712);
     border-radius: 25px;
-    margin: 150px 0px  0px;
-    position: sticky;
-    top:200px;
-    
+    margin: 200px 0px  0px;
+   
 }
-/* .box{
-    position: fixed;
-    left: 150px;
-} */
+
 .dotted {
     border-style: dotted;
     border-width: 1px;

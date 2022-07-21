@@ -2,8 +2,8 @@
   <link rel="stylesheet" href="{{ asset('frontend/css/joblisting.css')}}" />
 
 @section('content')
-<div class="container-fluid m-0 p-0 " style="overflow:hidden;">
-        <nav class="mobile_nav navbar navbar-expand-sm navbar-light bg-white border-bottom first-row-border fixed-top">
+<div class="sticky mobile_nav m-0 p-0 " >
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom first-row-border">
             <a class="ml-2 font-weight-bold text-dark" href="#">
                 <img src="images/magnifier.png" class=" search-img" alt="">
                 <span class=" pt-3">Showing results for</span>
@@ -25,12 +25,12 @@
             </div>
         </nav>
     </div>
-
+    
     <div class="container-fluid alljob  p-0 mt-4">
 
-        <div class="row">
+        <div class="row m-0 p-0">
 
-            <div class=" col-lg-3 col-sm-12 col-md-12 col-12  left-sidebar ">
+            <div class=" col-lg-3 col-sm-12 col-md-12 col-12  left-sidebar px-0">
                 <div id="main">
                     <div class="container">
                         <div class="accordion" id="faq">
@@ -363,7 +363,7 @@
                         <div class="row">
                             <p class="first-main-content">1-20 of 269 Jobs In India</p>
 
-                            <div class="col-lg-12 col-sm-12 col-12 offset-sm-0 m-3 ">
+                            <div class="col-lg-12 col-sm-12 col-12 offset-sm-0">
                                 <article class=" back-middle-radius p-3">
                                     <div class="row">
                                         <div class="col-md-10 col-sm-10 col-8 p-4">
@@ -403,26 +403,11 @@
                                         Minimum qualification:GraduationMaximum Age : 30 YearsA Field Sales Executive is
                                         respo...</div>
                                     <ul class="nav grey-text mt-3">
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales experience</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>sales executive activities</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>customer handling</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>Punctuality</li>
+                                       • field sales experience</li>
+                                       • sales executive activities</li>
+                                       • customer handling</li>
+                                       • field sales</li>
+                                       • Punctuality</li>
                                     </ul>
                                     <div class=" mt-20">
                                         <div class=""><i class="p-1 grey-text"></i><span class="grey-text">2
@@ -432,7 +417,7 @@
                                 </article>
                                 </a>
                             </div>
-                            <div class="col-lg-12 offset-lg-0 col-sm-12 offset-sm-0 col-12 m-3 ">
+                            <div class="col-lg-12 offset-lg-0 col-sm-12 offset-sm-0 col-12 ">
                                 <article class=" back-middle-radius p-3">
                                     <div class="row  mt-3">
                                         <div class="col-md-10 col-9 p-4">
@@ -473,26 +458,11 @@
                                         Minimum qualification:GraduationMaximum Age : 30 YearsA Field Sales Executive is
                                         respo...</div>
                                     <ul class="nav grey-text mt-3">
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales experience</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>sales executive activities</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>customer handling</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>Punctuality</li>
+                                       • field sales experience</li>
+                                       • sales executive activities</li>
+                                       • customer handling</li>
+                                       • field sales</li>
+                                       • Punctuality</li>
                                     </ul>
                                     <div class=" mt-20">
                                         <div class=""><i class="p-1 grey-text"></i><span class="grey-text">2
@@ -501,7 +471,7 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-lg-12 col-sm-12 col-12 offset-sm-0 m-3 ">
+                            <div class="col-lg-12 col-sm-12 col-12 offset-sm-0 ">
                                 <article class=" back-middle-radius p-3">
                                     <div class="row   mt-3">
                                         <div class="col-md-10 col-9 p-4">
@@ -542,26 +512,11 @@
                                         is
                                         respo...</div>
                                     <ul class="nav grey-text mt-3 ">
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales experience</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>sales executive activities</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>customer handling</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>Punctuality</li>
+                                       • field sales experience</li>
+                                       • sales executive activities</li>
+                                       • customer handling</li>
+                                       • field sales</li>
+                                       • Punctuality</li>
                                     </ul>
                                     <div class=" mt-20">
                                         <div class=""><i class="p-1 grey-text"></i><span class="grey-text">2
@@ -570,15 +525,16 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-lg-12 col-sm-12 offset-lg-0 offset-sm-0 col-12 m-3 ">
+                            <div class="col-lg-12 offset-lg-0 col-sm-12 offset-sm-0 col-12 ">
                                 <article class=" back-middle-radius p-3">
-                                    <div class="row p-3  mt-3">
+                                    <div class="row  mt-3">
                                         <div class="col-md-10 col-9 p-4">
                                             <a class="head-middle" href="#" title="" target="_blank">Field Sales
-                                                Executive | Refractionist</a>
+                                                Executive
+                                                | Refractionist</a>
                                             <div class="mt-7">
-                                                <a href="#" class="head-middle" target="_blank" title="Lenskart">Citius
-                                                    Tech</a>
+                                                <a href="#" class="head-middle" target="_blank"
+                                                    title="Lenskart">Lenskart</a>
                                                 <span class="head-middle" title="">3.0
                                                     <i class="fa fa-star text-warning ml-5 fa-sm"
                                                         aria-hidden="true"></i>
@@ -587,11 +543,11 @@
                                             </div>
                                             <ul class="mt-7 nav">
                                                 <li class="font-for-middle grey-text">
-                                                    <i class="fa fa-briefcase mx-1 " aria-hidden="true"></i>
+                                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
                                                     <span title="" class="mx-1">0-5 Yrs</span>
                                                 </li>
-                                                <li class="font-for-middle grey-text mx-1 ">
-                                                    <i class="fa fa-rupee mx-1 "></i>
+                                                <li class="font-for-middle">
+                                                    <i class="fa fa-rupee mx-1 grey-text "></i>
                                                     <span title=" " class="">50,000 -
                                                         3,00,000 PA.</span>
                                                 </li>
@@ -602,33 +558,19 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-md-2 col-3"><img class="img-fluid" alt="company"
+                                        <div class="col-md-2 col-3"><img class="img-fluid p-2" alt="company"
                                                 src="images/citius.png"></div>
                                     </div>
+
                                     <div class="fs12 grey-text "><i class="fa fa-file mx-1" aria-hidden="true"></i>
                                         Minimum qualification:GraduationMaximum Age : 30 YearsA Field Sales Executive is
                                         respo...</div>
                                     <ul class="nav grey-text mt-3">
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales experience</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>sales executive activities</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>customer handling</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>field sales</li>
-                                        <li class="bi bi-dot"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                                                height="16" fill="currentColor" class="bi bi-dot" viewBox="0 0 16 16">
-                                                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                            </svg>Punctuality</li>
+                                       • field sales experience</li>
+                                       • sales executive activities</li>
+                                       • customer handling</li>
+                                       • field sales</li>
+                                       • Punctuality</li>
                                     </ul>
                                     <div class=" mt-20">
                                         <div class=""><i class="p-1 grey-text"></i><span class="grey-text">2
@@ -637,7 +579,6 @@
                                     </div>
                                 </article>
                             </div>
-
 
 
                         </div>
@@ -700,4 +641,19 @@
 
         </div>
     </div>
+
+    <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 @endsection

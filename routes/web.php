@@ -31,13 +31,18 @@ Route::get('certificate',[FrontendController::class,'certificate'])->name('certi
 Route::get('courses-details',[FrontendController::class,'coursesDetails'])->name('courses-details');
 Route::get('job-listing',[FrontendController::class,'jobListing']);
 Route::get('employee-login',[EmployeeController::class,'employeeLoginForm'])->name('employee-login');
+Route::get('employee-account',[EmployeeController::class,'employeeAccount'])->name('employee-account');
 
 //Employer-------------------------------------Employer=======================================-------
 //======================================================================================
 
 Route::get('employer-login',[EmployerController::class,'employerLoginForm'])->name('employer-login');
-Route::post('employer-login',[EmployerController::class,'login'])->name('login');
+Route::post('employer-login',[EmployerController::class,'login'])->name('employer-login');
  Route::get('employer-account',[EmployerController::class,'employerAccount'])->name('employer-account');
+
+ Route::post('employer-account/store',[EmployerController::class,'Store'])->name('employer-store');
+
+  Route::get('employer-create-password',[EmployerController::class,'employerCreatePassword'])->name('employer-create-password');
 
 
 //Admin Panel=================================================================

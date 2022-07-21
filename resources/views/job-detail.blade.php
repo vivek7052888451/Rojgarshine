@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="{{ asset('frontend/css/jobdetail.css')}}" />
 
 @section('content')
- <section class="profil  py-5 ">
+<section class="profil  py-5 ">
         <div class="container-fluid  p-4">
             <div class="row">
 
@@ -64,7 +64,7 @@
                         <div class="p-2 mx-2 ">
                             <div class="text-muted grey-text">Posted :<span class="text-dark">1 day ago</span>
                                 <p style="display: contents;"><span>| Job Applicants :</span><span>130</span></p>
-                                <p style="display: contents; color:#063455;">Send me job like this</p>
+                                <p style="display: contents; color:#063455;" class="mx-5">Send me job like this</p>
                             </div>
                         </div>
                     </article>

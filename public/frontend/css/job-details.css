@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+.profil {
+    background: #f9f9f9;
+ 
+}
+.profil p{
+    font-size: 14px;
+}
+
+.job-describe span {
+    font-weight: 700;
+    color: rgb(63, 63, 63) !important;
+}
+
+.margin-top--22 {
+    margin-top: -22px;
+}
+
+
+
+
+.back-middle-radius {
+    border: 0;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 10px;
+    padding: 0;
+    background-color: white;
+    border: none;
+
+}
+
+.font-for-middle {
+    font-size: 14px;
+}
+
+.list-none li {
+    text-decoration: none;
+    margin-left: -25px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.grey-text {
+    font-size: 14px;
+    color: #536777;
+}
+
+.head-middle {
+    color: #063455;
+    font-weight: 600;
+}
+
+.border-job {
+    border-bottom: 1px solid #e8e9eb;
+
+}
+
+.job-describe {
+    border: 0;
+    background-color: white;
+    -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+    border-radius: 10px;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.posted {
+    float: right;
+    color: #536777;
+    font-size: 14px;
+}
+
+.short-describe h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.desc-list {
+    font-size: 13px;
+}
+
+.last-terms {
+    font-size: 14px !important;
+}
+
+.last-terms span a {
+
+    color: rgb(29, 123, 247) !important;
+}
+
+.reviews h6 {
+    font-size: 14px;
+}
+
+.read-reviews {
+    float: right;
+    font-size: 13px;
+}
+
+.follow {
+    font-size: 13px;
+    background-color: #d1ecff;
+}
+
+.follow .btn {
+    color: white;
+    border: 1px solid #063455;
+    background-color: #063455;
+}
+
+.follow span {
+    font-size: 13px;
+}
+
+.powered {
+    font-size: 12px;
+
+    font-weight: 0 !important;
+}
+
+.benefits {
+    font-size: 13px;
+    margin-top: -8px;
+}
+
+.view {
+    float: right;
+    font-size: 13px;
+}
+
+.suggested {
+    font-size: 13px;
+
+}
+
+.paid-view {
+    font-size: 13px;
+}
+
+.rec-photo {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.training-img img {
+    height: 20px;
+    width: 20px;
+
+}
+.key-skills button{
+    border: 1px solid #e8e9eb;
+    border-radius: 40px;
+}
+.key-skills .fa,button:hover{
+    color: #0d5e99;
+}
+.key-skills .fa{
+    font-size: 11px;
+}
+.key-skills button:hover{
+    border :1px solid #0d5e99;
+}
+.img-detail{
+    height:70px;
+    width:70px;
+}
+.button-register{
+    text-align: end;
+   border: none ;
+   
+}
+.button-register .first-child button {
+    border:none;
+    height:40px;
+    border:1px solid #063455;
+    color:#063455;
+    width:100px;
+    font-weight:600 ;
+}
+.button-register .first-child button:hover{
+    box-shadow: 2px 0px 2px 0px;
+}
+.button-register .second-child button:hover{
+    box-shadow: 2px 2px 2px #063455; 
+}
+.button-register .second-child button {
+    border:none;
+    width:100px;
+    height:40px;
+    background-color: #063455;
+    color:#fff;
+    font-weight: 600;
+}
